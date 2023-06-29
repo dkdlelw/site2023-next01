@@ -1,7 +1,7 @@
 import React from "react";
 
 const Movie = () => {
-    return <div>Movie</div>;
+  const [movies, setMovies] = useState([]);
 };
 
 export default Movie;
